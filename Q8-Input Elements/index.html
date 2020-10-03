@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+      <title>Input Elements</title>
+
+</head>
+
+<body>
+
+    
+    <p>Label</p>
+    <label for="fname"> First name:</label>
+    <input type="text" id="fname" name="fname" placeholder="YourName">
+    
+    <p>Select & Option</p>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+  <option value="swift">Swift</option>
+  <option value="alto">Alto</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi" selected>Audi</option>
+</select>
+    
+    
+    <p>size and multiple</p>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars" size="3" multiple>
+  <option value="swift">Swift</option>
+  <option value="alto">Alto</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi" selected>Audi</option>
+</select>
+    
+    <p>textArea</p>
+<textarea name="message" rows="10" cols="30">
+Just a sentence.
+</textarea>
+    
+    <p>Button</p>
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+    <p>Fieldset</pp>
+      <fieldset>
+    <legend>Legend</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="David"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+
+</body>
+</html>

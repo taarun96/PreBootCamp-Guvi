@@ -1,0 +1,45 @@
+.container {
+    width:1140px;
+    margin: 100px 100px 100px 100px;
+}
+
+.solid {
+    border-style: solid;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+ .leftbox { 
+     float:left;
+     width:50%; 
+             }
+.rightbox{ 
+     float:right;           
+     width:50%;         
+            }
+
+.input {
+    border:none;
+    border-bottom: 1px solid ;
+    outline: none;
+ }
+
+
+.leftboxsecond{
+    float:left;
+     width:33%;
+}
+
+
+.rightboxsecond{
+    float:right;
+     width:33%;
+}
+
+
+.middleboxsecond{
+    float:left;
+     width:33%;
+}
